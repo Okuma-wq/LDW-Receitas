@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;  
+    line-height: 1.5; 
+}
+
+ol, ul {
+    list-style: none; 
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+img {
+    max-width: 100%; 
+    display: block; 
+}
+
+header{
+    height: 80px;
+    background-color: #FF8059;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    /* background-color: red; */
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo>img{
+    height: 60px;
+}
+
+.logo span{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.banner{
+    height: 54.54em;
+    background-image: url(imgs/Banner.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.banner h1{
+    font-size: 40px;
+}
+
+.banner p{
+    font-size: 30px;
+}
+
+#section-receitas{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section-receitas h2{
+    display: none;
+}
+
+.card-receita{
+    height: 25em;
+    display: flex;
+}
+
+.card-receita img{
+    height: 100%;
+    max-width: 50%;
+}
+
+.card-texto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-texto h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-texto p{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-receita{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-receita img{
+    width: 105px;
+}
