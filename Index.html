@@ -10,22 +10,25 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div class="container header-content">
-            <a href="Index.html" class="logo">
+            <a href="./Index.html" class="logo">
                 <img src="imgs/logo.svg" alt="Logo do site">
                 <span>Divina receita</span>
             </a>
         </div>
     </header>
     <main>
-        <section class="banner">
+        <a href="#header" id="btnUp">
+            <img src="imgs/btnUp.png" alt="Botão para topo da página">
+        </a>
+        <section aria-label="banner" class="banner">
             <h1>Divina Receita</h1>
             <p>Porque você também merece aquele gostinho divino</p>
         </section>
         <section aria-label="Receitas" id="section-receitas">
             <h2>Receitas</h2>
-            <div class="container">
+            <div class="container cards">
                 <div class="card-receita">
                     <div class="card-texto">
                         <h3>Sobá</h3>
@@ -34,12 +37,189 @@
                             caldo ou frio com molho para mergulhar. É leve, nutritivo e muito apreciado no Japão, com
                             variações como o kake soba (em caldo quente) e o zaru soba (frio com molho tsuyu).
                         </p>
+                        <a class="btn-receita" href="paginas/Soba.html">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                    <img src="imgs/soba.png" alt="Image de sobá">
+                </div>
+
+
+                <div class="card-receita">
+                    <img src="imgs/Brownie.png" alt="Image de brownie" />
+                    <div class=" card-texto">
+                        <h3>Brownie</h3>
+                        <p>
+                            O brownie é um doce de chocolate de origem americana, caracterizado por sua textura densa e
+                            macia, que pode variar entre mais úmida (fudgy) ou mais firme (cakey). Geralmente é feito
+                            com chocolate, manteiga, açúcar, ovos e farinha, podendo conter nozes, pedaços de chocolate
+                            ou outros ingredientes.
+                        </p>
                         <a class="btn-receita">
                             <img src="imgs/cooking-pot.png" alt="">
                             <span>Faça você mesmo!</span>
                         </a>
                     </div>
-                    <img  src="imgs/soba.png" alt="Image de sobá">
+                </div>
+
+
+                <div class="card-receita">
+                    <div class="card-texto">
+                        <h3>Ensopado de carne</h3>
+                        <p>
+                            O ensopado de carne é um prato reconfortante feito cozinhando lentamente pedaços de carne em
+                            um
+                            caldo temperado, geralmente com legumes como batatas, cenouras e cebolas. A cocção
+                            prolongada
+                            deixa a carne macia e o caldo espesso e saboroso. Pode ser servido puro ou acompanhado de
+                            arroz,
+                            pão ou purê.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                    <img src="imgs/ensopado_de_carne.png" alt="Image de ensopado de carne" />
+                </div>
+
+
+                <div class="card-receita">
+                    <img src="imgs/tonkatsu.png" alt="Image de tonkatsu" />
+                    <div class=" card-texto">
+                        <h3>Tonkatsu</h3>
+                        <p>
+                            O tonkatsu é um prato tradicional da culinária japonesa, composto por lombo de porco
+                            empanado e frito até ficar crocante e dourado. A carne é envolvida em uma camada de farinha
+                            de trigo, ovo e panko (uma farinha de rosca japonesa), que confere uma textura leve e
+                            crocante. O tonkatsu é servido fatiado e acompanhado de arroz branco, repolho ralado, molho
+                            tonkatsu (um molho agridoce à base de frutas, vinagre e especiarias) e, às vezes, um pouco
+                            de mostarda ou molho picante. Esse prato é simples, mas cheio de sabor, e é uma verdadeira
+                            iguaria no Japão e em diversas partes do mundo.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card-receita">
+                    <div class="card-texto">
+                        <h3>Mac and cheese</h3>
+                        <p>
+                            O Mac and Cheese (Macaroni and Cheese) é um prato clássico da culinária americana feito com
+                            macarrão, geralmente cotovelo, envolvido em um molho cremoso de queijo. Pode ser assado para
+                            formar uma crosta dourada ou servido diretamente do fogão. É uma receita reconfortante e
+                            versátil, podendo incluir ingredientes extras como bacon, ervas ou migalhas de pão
+                            crocantes.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                    <img src="imgs/mac_and_cheese.png" alt="Image de mac and cheese" />
+                </div>
+
+
+                <div class="card-receita">
+                    <img src="imgs/Lasanha.png" alt="Image de lasanha" />
+                    <div class=" card-texto">
+                        <h3>Lasanha</h3>
+                        <p>
+                            A lasanha é um prato tradicional da culinária italiana feito em camadas alternadas de massa,
+                            molho (geralmente de tomate ou bechamel), queijo e recheios variados, como carne moída,
+                            frango, vegetais ou até frutos do mar. Assada até ficar dourada e borbulhante, é uma receita
+                            reconfortante e muito apreciada em diversas variações ao redor do mundo.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card-receita">
+                    <div class="card-texto">
+                        <h3>Strogonoff</h3>
+                        <p>
+                            O strogonoff é um prato de origem russa, feito com carne (geralmente filé mignon ou frango)
+                            cortada em pedaços, cozida em um molho cremoso à base de creme de leite, ketchup, mostarda e
+                            temperos. No Brasil, é muito comum ser servido com arroz branco e batata palha. Existem
+                            variações, como o strogonoff de camarão, e o prato é conhecido pela sua combinação de
+                            sabores ricos e textura cremosa.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                    <img src="imgs/strogonoff.png" alt="Image de strogonoff" />
+                </div>
+
+
+                <div class="card-receita">
+                    <img src="imgs/Batata gratinada com frango frito.jpg"
+                        alt="Image de batata gratinada com frango frito" />
+                    <div class=" card-texto">
+                        <h3>Batata gratinada com frango frito</h3>
+                        <p>
+                            A batata gratinada com frango frito é uma refeição reconfortante que combina a cremosidade
+                            das batatas gratinadas com o sabor crocante e suculento do frango frito. As batatas são
+                            cortadas em rodelas finas, cozidas e cobertas com queijo, creme de leite e temperos, depois
+                            levadas ao forno até ficarem douradas e gratinadas. O frango é frito até ficar crocante por
+                            fora e macio por dentro. Juntos, formam um prato delicioso e satisfatório.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card-receita">
+                    <div class="card-texto">
+                        <h3>Rocambole de carne</h3>
+                        <p>
+                            O rocambole de carne é um prato saboroso e versátil, feito com carne moída (geralmente de
+                            boi, mas pode ser de frango ou porco) temperada e recheada com diversos ingredientes, como
+                            queijo, presunto, legumes ou até ovos cozidos. A carne é moldada em forma de cilindro e
+                            depois assada no forno até ficar dourada por fora e suculenta por dentro. Pode ser servido
+                            com molho, arroz ou batatas. É uma opção prática para almoços ou jantares, combinando sabor
+                            e textura de maneira deliciosa.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
+                    <img src="imgs/rocambole de carne.png" alt="Image de rocambole de carne" />
+                </div>
+
+
+                <div class="card-receita">
+                    <img src="imgs/Batata gratinada com frango frito.jpg" alt="Image de hamburger caseiro" />
+                    <div class=" card-texto">
+                        <h3>Hamburger caseiro</h3>
+                        <p>
+                            O hambúrguer caseiro é uma opção deliciosa e personalizável, feito com carne moída,
+                            temperada a gosto, e moldada em formato de discos. A carne é grelhada ou frita até atingir o
+                            ponto desejado, e é geralmente servida em um pão de hambúrguer, acompanhado de ingredientes
+                            como queijo, alface, tomate, cebola, picles e molho especial. O hambúrguer caseiro permite
+                            controlar os temperos e os acompanhamentos, oferecendo um sabor mais fresco e autêntico em
+                            comparação aos comprados prontos. Pode ser servido com batatas fritas ou salada, tornando-se
+                            um prato completo e saboroso.
+                        </p>
+                        <a class="btn-receita">
+                            <img src="imgs/cooking-pot.png" alt="">
+                            <span>Faça você mesmo!</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
